@@ -1,0 +1,34 @@
+class program {
+       // TODO poner codigo aqui
+       void turnright ()
+       {
+          turnleft();
+          turnleft();
+          turnleft();
+       }
+     program () {
+      while (frontIsClear)
+      {
+       if (nextToABeeper)
+        {
+           pickbeeper();
+           move();
+           turnright();
+           move();
+           turnleft();
+        }
+        else
+        {
+          move();
+          turnright();
+          move();
+          turnleft();
+        }
+       }
+       if (nextToABeeper)
+        {
+           pickbeeper();
+        }
+       turnoff();
+    }
+}

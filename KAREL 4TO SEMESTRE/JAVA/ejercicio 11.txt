@@ -1,0 +1,18 @@
+class program {
+ void HayUnZumbador (n)
+ {
+     if (iszero(n)) 
+     {
+        pickbeeper();
+     }
+     else
+     {
+      iterate(n)
+         putbeeper();
+     }
+ }
+    program () {
+       HayUnZumbador(5);
+        turnoff();
+    }
+}
